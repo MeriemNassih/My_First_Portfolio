@@ -6,14 +6,32 @@
     <title>Tweets Page</title>
 </head>
 <body>
-    <h1>Embedded Tweet</h1>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
     
-    <!-- Embedding a Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">This is an example tweet embedded in the webpage. <a href="https://twitter.com/username/status/tweet_id">Tweet link</a></p>&mdash; Twitter User (@username) <a href="https://twitter.com/username/status/tweet_id">Date</a>
-    </blockquote>
-    <script async src="https://x.com/NassihM29139" charset="utf-8"></script>
+    <main>
+        <article>
+            <h1>Embedded Tweet</h1>
+            
+            <!-- Embedding a Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">This is an example tweet embedded in the webpage. <a href="https://twitter.com/username/status/tweet_id">Tweet link</a></p>&mdash; Twitter User (@username) <a href="https://twitter.com/username/status/tweet_id">Date</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <p><a href="index.html">Back to Homepage</a></p>
+            <p><a href="index.html">Back to Homepage</a></p>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
