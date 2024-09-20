@@ -33,8 +33,7 @@ header, footer {
     color: white;
     text-align: center;
     padding: 10px;
-    max-width: 1200px; /* Limiter la largeur du header */
-    margin: 0 auto; /* Centrer le header */
+    width: 100px;
 }
 /* Styles spécifiques aux petits écrans (moins de 600px) */
 @media (max-width: 600px) {
