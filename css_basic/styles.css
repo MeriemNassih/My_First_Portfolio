@@ -36,3 +36,13 @@ header, footer {
     text-align: center;
     padding: 10px;
 }
+/* Styles spécifiques aux petits écrans (moins de 600px) */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column; /* Repasser les éléments en colonne sur mobile */
+    }
+
+    article, aside {
+        flex: 1; /* Les deux éléments prennent 100% de la largeur */
+    }
+}
