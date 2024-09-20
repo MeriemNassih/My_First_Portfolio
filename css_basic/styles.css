@@ -1,9 +1,7 @@
 /* Utiliser flexbox pour organiser le body */
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
+    background-color: #f0f0f0; /* Exemple de couleur de fond */
+    font-family: Arial, sans-serif; /* Font par défaut */
 }
 
 /* Le conteneur main, qui contient article et aside */
@@ -15,10 +13,10 @@ main {
 
 /* Article occupe 2/3 de l'espace */
 article {
-    flex: 2;
+    background-color: white;
     padding: 20px;
-    background-color: #f0f0f0;
-    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Aside occupe 1/3 de l'espace */
@@ -45,4 +43,18 @@ header, footer {
     article, aside {
         flex: 1; /* Les deux éléments prennent 100% de la largeur */
     }
+}
+.logo {
+    font-size: 2rem; /* Agrandir le logo */
+    margin-right: 15px; /* Ajouter un espace après le logo */
+    color: #333; /* Changer la couleur du logo */
+}
+a {
+    color: #3498db; /* Couleur bleue pour les liens */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9; /* Couleur plus foncée au survol */
+    text-decoration: underline;
 }
